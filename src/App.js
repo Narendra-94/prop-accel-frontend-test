@@ -5,7 +5,7 @@ import { Content } from "./Content/Content";
 import { About } from "./About/About";
 import { Pricing } from "./Pricing/Pricing";
 import { Review } from "./Review/Review";
-import { Footer } from "./Footer.js/Footer";
+import { Footer } from "./Footer/Footer";
 
 export const App = () => {
   return (
