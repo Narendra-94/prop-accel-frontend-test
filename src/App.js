@@ -5,7 +5,7 @@ import { Content } from "./Content/Content";
 import { About } from "./About/About";
 import { Pricing } from "./Pricing/Pricing";
 import { Review } from "./Review/Review";
-import { Footer } from "./Footer/Footer";
+import { AppFooter } from "./AppFooter/AppFooter";
 
 export const App = () => {
   return (
@@ -15,7 +15,7 @@ export const App = () => {
       <About />
       <Pricing />
       <Review />
-      <Footer />
+      <AppFooter />
     </div>
   );
 };

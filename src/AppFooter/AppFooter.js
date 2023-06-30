@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "./Footer.css";
 import facebook from "../images/facebook.svg";
 import youtube from "../images/youtube.svg";
 import instagram from "../images/instagram.svg";
 import twitter from "../images/twitter.svg";
+import "./AppFooter.css";
 
-export const Footer = () => {
+export const AppFooter = () => {
   return (
     <div className="footer">
       <div className="footer-polygon"></div>
