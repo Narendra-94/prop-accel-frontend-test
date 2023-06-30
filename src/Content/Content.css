@@ -1,0 +1,49 @@
+.content {
+  display: flex;
+  position: relative;
+}
+
+.circle {
+  background: #7a3199;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 929px;
+  height: 786px;
+  display: flex;
+  position: absolute;
+  top: -425px;
+  left: -440px;
+  overflow: hidden;
+}
+
+.polygon1 {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background: linear-gradient(180deg, #7a3199 0%, #161033 100%);
+  flex-shrink: 0;
+  width: 1936px;
+  height: 777.412px;
+  position: absolute;
+  top: -907px;
+  left: 354px;
+  transform: rotate(-32.608deg);
+}
+
+.polygon2 {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  flex-shrink: 0;
+  width: 1988.28px;
+  height: 1255.42px;
+  position: absolute;
+  top: -645px;
+  left: -950px;
+  transform: rotate(-32.57deg);
+  background: linear-gradient(180deg, #7a3199 0%, #161033 100%);
+}
+
+.mic img {
+  width: 597px;
+  height: 441px;
+  position: absolute;
+  top: 397px;
+  left: 820px;
+}

@@ -1,0 +1,150 @@
+.content-container {
+  flex-shrink: 0;
+  justify-content: center;
+  width: 100%;
+  height: 652px;
+  display: flex;
+  position: relative;
+  top: 1px;
+}
+
+.content-details {
+  width: 580px;
+  height: 371px;
+  top: 94px;
+  left: 175px;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.content-image {
+  border-radius: 10px;
+  flex-shrink: 0;
+  width: 576px;
+  height: 365px;
+  position: absolute;
+  top: 135px;
+  left: -121px;
+}
+
+.everyone-smiling img {
+  border-radius: 10px;
+  width: 377px;
+  height: 226px;
+  position: absolute;
+  top: -33px;
+  left: 958px;
+  object-fit: cover;
+}
+
+.employers-smiling img {
+  border-radius: 10px;
+  width: 377px;
+  height: 226px;
+  position: absolute;
+  top: 49px;
+  left: 902px;
+}
+
+.content-details-header {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 56px;
+  color: white;
+  object-fit: cover;
+}
+
+.content-details-info {
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  display: flex;
+  width: 354px;
+  height: 62.751px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.content-details-btn button {
+  display: inline-flex;
+  height: 60px;
+  padding: 19px 56px 25.861px 55px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--danger, linear-gradient(90deg, #4776e6 0%, #8e54e9 100%));
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.vector {
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 65px;
+  height: 65px;
+  padding: 7px 3px;
+  display: flex;
+  position: absolute;
+  top: 246.82px;
+  left: 1264px;
+  transform: rotate(-16.831deg);
+  box-shadow: 0 10px 40px #9a949440;
+}
+
+.vector img {
+  width: 35.714px;
+  height: 23.214px;
+  flex-shrink: 0;
+  width: 35.71436372504094px;
+  height: 23.214285304332357px;
+  top: 33.48681640625px;
+  left: 21.2635498046875px;
+  border: 3px;
+  transform: rotate(16.83deg);
+  color: linear-gradient(180deg, #7a3199 0%, #161033 100%);
+}
+
+.group {
+  background: #fff;
+  border-radius: 5px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 63px;
+  height: 62px;
+  padding: 2px 7px;
+  display: flex;
+  position: absolute;
+  top: 399px;
+  left: 1175.19px;
+  transform: rotate(15.14deg);
+  box-shadow: 0 10px 40px #9a949440;
+}
+
+.group img {
+  width: 50px;
+  height: 30.357143934960412px;
+  top: 13.408935546875px;
+  left: 35.943603515625px;
+  border: 3px;
+  transform: rotate(-15.14deg);
+  flex-shrink: 0;
+  color: linear-gradient(180deg, #7a3199 0%, #161033 100%);
+}

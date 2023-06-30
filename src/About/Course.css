@@ -1,0 +1,83 @@
+.course {
+  width: 552px;
+  height: 397px;
+  top: 49px;
+  left: 175.5px;
+  border-radius: 10px;
+  border: 0.5px;
+}
+
+.course h2 {
+  color: #000;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.course p {
+  color: #000;
+  font-size: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.interactive-features-1 {
+  display: inline-flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 10px;
+  border: 0.5px solid #7a3199;
+  width: 268px;
+  height: 160px;
+  top: 49px;
+  left: 175.5px;
+  position: absolute;
+}
+.interactive-features-2 {
+  width: 268px;
+  height: 160px;
+  top: 72px;
+  left: 459.5px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 0.5px solid #7a3199;
+  gap: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+.interactive-features-3 {
+  width: 268px;
+  height: 160px;
+  top: 263px;
+  left: 175.5px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 0.5px solid #7a3199;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: absolute;
+}
+.interactive-features-4 {
+  width: 268px;
+  height: 160px;
+  top: 286px;
+  left: 459.5px;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0.5px solid #7a3199;
+  position: absolute;
+}

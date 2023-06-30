@@ -1,0 +1,10 @@
+.about {
+  flex-shrink: 0;
+  justify-content: center;
+  gap: 88px;
+  width: 1439px;
+  height: 525px;
+  display: flex;
+  position: relative;
+  top: -38px;
+}

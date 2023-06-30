@@ -1,0 +1,11 @@
+.slider {
+  width: 171px;
+  height: 15px;
+  top: 467px;
+  left: 630px;
+  gap: 24px;
+  position: absolute;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
